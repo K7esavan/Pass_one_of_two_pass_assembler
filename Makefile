@@ -1,6 +1,4 @@
 # Ultimate Makefile made by
-# Your's Obidently
-# Kesavan M
 output: main.o passOneAssembler.o symbolTable.o utilityfunctions.o
 	gcc -o output main.o passOneAssembler.o symbolTable.o utilityfunctions.o
 
